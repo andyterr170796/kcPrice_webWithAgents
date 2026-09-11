@@ -1,0 +1,154 @@
+{
+  "model_name": "King County House Price Predictor",
+  "algorithm": "HistGradientBoostingRegressor",
+  "target": "price",
+  "features": [
+    "grade",
+    "sqft_living",
+    "lat",
+    "long",
+    "sqft_living15",
+    "yr_built",
+    "waterfront",
+    "sqft_above",
+    "sqft_lot",
+    "zipcode",
+    "sqft_lot15",
+    "view",
+    "bathrooms",
+    "sqft_basement",
+    "condition",
+    "bedrooms",
+    "yr_renovated",
+    "floors"
+  ],
+  "feature_details": {
+    "grade": {
+      "type": "int",
+      "min": 3.0,
+      "max": 13.0,
+      "median": 7.0,
+      "mean": 7.592854338437378
+    },
+    "sqft_living": {
+      "type": "int",
+      "min": 370.0,
+      "max": 13540.0,
+      "median": 1900.0,
+      "mean": 2052.7293734926243
+    },
+    "lat": {
+      "type": "float",
+      "min": 47.1559,
+      "max": 47.7776,
+      "median": 47.5729,
+      "mean": 47.56007206797914
+    },
+    "long": {
+      "type": "float",
+      "min": -122.519,
+      "max": -121.315,
+      "median": -122.231,
+      "mean": -122.21495282965954
+    },
+    "sqft_living15": {
+      "type": "int",
+      "min": 399.0,
+      "max": 6110.0,
+      "median": 1830.0,
+      "mean": 1974.0706152896967
+    },
+    "yr_built": {
+      "type": "int",
+      "min": 1900.0,
+      "max": 2015.0,
+      "median": 1969.0,
+      "mean": 1967.3213304167368
+    },
+    "waterfront": {
+      "type": "int",
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "mean": 0.007796286948230411
+    },
+    "sqft_above": {
+      "type": "int",
+      "min": 370.0,
+      "max": 9410.0,
+      "median": 1530.0,
+      "mean": 1750.8017275225757
+    },
+    "sqft_lot": {
+      "type": "int",
+      "min": 520.0,
+      "max": 1651359.0,
+      "median": 7904.0,
+      "mean": 15796.393852711873
+    },
+    "zipcode": {
+      "type": "int",
+      "min": 98001.0,
+      "max": 98199.0,
+      "median": 98065.0,
+      "mean": 98078.00308486175
+    },
+    "sqft_lot15": {
+      "type": "int",
+      "min": 660.0,
+      "max": 871200.0,
+      "median": 7820.0,
+      "mean": 13306.988333613775
+    },
+    "view": {
+      "type": "int",
+      "min": 0.0,
+      "max": 4.0,
+      "median": 0.0,
+      "mean": 0.24230186774356385
+    },
+    "bathrooms": {
+      "type": "float",
+      "min": 0.0,
+      "max": 8.0,
+      "median": 2.0,
+      "mean": 2.0621880083010824
+    },
+    "sqft_basement": {
+      "type": "int",
+      "min": 0.0,
+      "max": 4820.0,
+      "median": 0.0,
+      "mean": 301.9276459700488
+    },
+    "condition": {
+      "type": "int",
+      "min": 1.0,
+      "max": 5.0,
+      "median": 3.0,
+      "mean": 3.4487071624880814
+    },
+    "bedrooms": {
+      "type": "int",
+      "min": 0.0,
+      "max": 33.0,
+      "median": 3.0,
+      "mean": 3.36367715519659
+    },
+    "yr_renovated": {
+      "type": "int",
+      "min": 0.0,
+      "max": 2015.0,
+      "median": 0.0,
+      "mean": 90.10746536541589
+    },
+    "floors": {
+      "type": "float",
+      "min": 1.0,
+      "max": 3.5,
+      "median": 1.0,
+      "mean": 1.433591339951764
+    }
+  },
+  "total_features": 18
+}
